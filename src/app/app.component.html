@@ -1,0 +1,17 @@
+<style>
+  body {
+    display: flex;
+    justify-content: center;
+  }
+
+  p {
+    font-size: 2rem;
+    font-weight: 500;
+  }
+</style>
+
+<div *ngFor="let product of products">
+  <p>{{ product.name }}</p>
+  <p>{{ product.price }}</p>
+  <p>{{ product.date }}</p>
+</div>
